@@ -47,26 +47,26 @@ const Navbar = () => {
           <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${menu ? "block" : "hidden"}`}> {/* Menu For Mobile Devices */}
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="md:ml-4">
-                <CustomLink to="/" className="no-underline font-bold md:border-none md:mx-5 md:p-0 md:text-l p-2"> 
-                <span className="hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animatoin-pulse hover:duration-500 hover:text-xl"> Home </span> 
+                <CustomLink to="/" className="no-underline font-bold md:border-none md:mx-5 md:p-0 md:text-lg p-2"> 
+                <span className="text-lg hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animatoin-pulse hover:duration-500 hover:text-xl"> Home </span> 
                 </CustomLink>
               </li>
               {
                 user && user.emailVerified &&
                 <li className="md:ml-4">
                   <CustomLink to="/dashboard" className="no-underline font-bold md:border-none md:mx-5 md:p-0 md:text-l p-2"> 
-                  <span className="hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animatoin-pulse hover:duration-500 hover:text-xl"> Meetify Dashboard </span> 
+                  <span className="text-lg hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animatoin-pulse hover:duration-500 hover:text-xl"> Meetify Dashboard </span> 
                   </CustomLink>
                 </li>
               }
               <li className="md:ml-4">
                 <CustomLink to="/career" className="no-underline font-bold md:border-none md:mx-5 md:p-0 md:text-lg p-2"> 
-                  <span className="hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animation-pulse hover:duration-500 hover:text-xl"> Career </span> 
+                  <span className="text-lg hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animation-pulse hover:duration-500 hover:text-xl"> Career </span> 
                 </CustomLink>
               </li>
               <li className="md:ml-4">
                 <CustomLink to="/contact" className="no-underline font-bold md:border-none md:mx-5 md:p-0 md:text-lg p-2"> 
-                  <span className="hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animation-pulse hover:duration-500 hover:text-xl"> Contact Us </span> 
+                  <span className="text-lg hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animation-pulse hover:duration-500 hover:text-xl"> Contact Us </span> 
                 </CustomLink>
               </li>
               { 
@@ -89,8 +89,8 @@ const Navbar = () => {
                 </span>
                 : 
                 <li className="md:ml-4">
-                  <CustomLink to="/signin" className="no-underline font-bold md:border-none md:mx-5 md:p-0 md:text-l p-2"> 
-                  <span className="hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animatoin-pulse hover:duration-500 hover:text-xl"> Sign In </span> 
+                  <CustomLink to="/signin" className="no-underline font-bold md:border-none md:mx-5 md:p-0 md:text-lg p-2"> 
+                  <span className="text-lg hover:text-teal-900 hover:border-b-2 hover:border-teal-500 hover:animation-ease-in-out hover:animatoin-pulse hover:duration-500 hover:text-xl"> Sign In </span> 
                   </CustomLink>
                 </li>
               }
