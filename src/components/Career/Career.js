@@ -12,7 +12,7 @@ const Career = () => {
     <div className="pt-2">
       <PageTitle title="Career"/>
       <h1 className="text-4xl pt-2 mt-16 font-bold text-center bg-sky-100 font-mono animated-text-top">Career at Job Connect</h1>
-      <div className="bg-sky-100 font-sans font-semibold p-4 flex grid grid-cols-4 gap-4">
+      <div className="bg-sky-100 font-sans font-semibold p-4 grid grid-cols-4 gap-4">
         <div className="md:col-span-3 col-span-4 md:order-first order-last">
           <div className="md:grid md:grid-cols-3 md:gap-4">
             <div className="md:col-span-3">
@@ -24,7 +24,7 @@ const Career = () => {
         </div>
         <div className='md:col-span-1 col-span-4 flex md:flex-col flex-row'>
           <aside aria-label="Sidebar">
-            <div className={`mx-auto px-2 py-4 overflow-y-auto rounded bg-green-50`}>
+            <div className={`mx-auto px-2 py-4 overflow-y-auto rounded bg-sky-50`}>
                 <ul className="space-y-2">
                   <li className="flex gap-2 items-center">
                     <i className="fa fa-user-plus" aria-hidden="true"></i>
@@ -34,7 +34,7 @@ const Career = () => {
             </div>
           </aside>
           <aside aria-label="Sidebar">
-            <div className={`mx-auto px-2 py-4 overflow-y-auto rounded bg-green-50`}>
+            <div className={`mx-auto px-2 py-4 overflow-y-auto rounded bg-sky-50`}>
                 <ul className="space-y-2">
                   <li className="flex gap-2 items-center">
                     <i className="fa fa-tasks" aria-hidden="true"></i>
