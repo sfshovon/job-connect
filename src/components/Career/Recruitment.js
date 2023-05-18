@@ -4,19 +4,19 @@ import '../../App.css';
 const Recruitment = () => {
   return (
     <div>
-      <div className="bg-green-100 text-center py-10 shadow-2xl">
-        <div className="container px-4 py-12 mx-auto">
+      <div className="bg-sky-100 text-center py-4 shadow-2xl">
+        <div className="container px-4 pt-6 mx-auto">
           <div className="grid gap-4 mx-4 sm:grid-cols-12">
             <div className="col-span-12 sm:col-span-3">
-              <div className="text-center sm:text-left mb-14 pl-10 animated-text-left">
+              <div className="text-center sm:text-left mb-4 animated-text-left">
                 <h2 className="text-3xl font-bold">Hiring Process</h2>
-                <h3 className="text-2xl text-center font-semibold tracking-wider uppercase">5 Steps</h3>
+                <h3 className="mt-6 text-2xl text-center font-semibold tracking-wider uppercase">4 Steps</h3>
               </div>
             </div>
             <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
               <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8">
-                <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative pb-20 -mt-10 animated-text-bottom">
-                  <div class="border-l-2 mt-10">
+                <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative -mt-10 animated-text-bottom">
+                  <div class="border-l-2 mt-8">
                     <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-orange-100 text-dark rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                       <div class="w-5 h-5 bg-orange-200 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
                       <div class="w-10 h-1 bg-orange-200 absolute -left-10 z-0"></div>

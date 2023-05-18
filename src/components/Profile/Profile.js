@@ -7,8 +7,8 @@ const Meetify = () => {
   const [user] = useAuthState(auth);
   
   return (
-    <div className="bg-green-100">
-      <div className="hero min-h-screen bg-green-100">
+    <div>
+      <div className="hero min-h-screen bg-sky-100">
         <div className="hero-content flex-col lg:flex-row">
           <img src={user.photoURL} alt="User" className="w-56 h-56 rounded-full shadow-2xl"/>
           <div>

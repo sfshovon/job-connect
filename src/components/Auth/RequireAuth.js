@@ -16,7 +16,7 @@ const RequireAuth = ({children}) => {
     return <Navigate to="/signin" state={{ from: location }} replace> </Navigate>
   }
   if(!user.emailVerified){
-    return <div className="h-screen bg-green-100">
+    return <div className="h-screen bg-sky-100">
       <PageTitle title="Authentication Required"/>
       <div className="flex justify-center items-center m-0">
         <h3 className="text-3xl text-dark font-semibold mt-5">Your Email Has Not Been Verified Yet</h3>

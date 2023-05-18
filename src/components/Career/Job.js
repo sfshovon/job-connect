@@ -6,7 +6,7 @@ import '../../App.css';
 const Job = () => {
 
   return (
-    <div className="bg-green-100 px-5 py-5 animated-text-left shadow-2xl">
+    <div className="bg-sky-100 px-5 py-5 animated-text-left shadow-2xl">
       <h2 className='text-3xl'>Front-End Developer</h2><br />
       <ul>
         <li><FontAwesomeIcon className='mr-2' icon={faThumbsUp}/><span className='font-bold'>Vacancy</span>: Not Specific</li>

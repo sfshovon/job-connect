@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`fixed top-0 z-50 w-full shadow-lg ${navStyle ? "bg-green-100" : "bg-green-200"}`}>
+    <nav className={`fixed top-0 z-50 w-full shadow-lg ${navStyle ? "bg-sky-100" : "bg-sky-200"}`}>
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-3 md:block">

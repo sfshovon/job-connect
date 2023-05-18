@@ -9,7 +9,7 @@ const ForgetPassword = () => {
   const { ResetPasswordError, handleEmailBlur, handleForgetPassword, } = useFirebase();
 
   return (
-    <section className="h-screen mt-16 bg-gray-100">
+    <section className="h-screen mt-16 bg-sky-100">
       <div className="flex justify-center">
       <PageTitle title="Forget Password"/>
         <div className="bg-emerald-100 w-4/5 md:w-1/3 flex-col rounded-2xl shadow-lg p-5 items-center my-10">
